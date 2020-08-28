@@ -1,7 +1,8 @@
 var data = [
     {
         "Date":"2020-07-27",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"初七",
         "TaskInfos":[
 
@@ -9,7 +10,8 @@ var data = [
     },
     {
         "Date":"2020-07-28",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"初八",
         "TaskInfos":[
 
@@ -17,7 +19,8 @@ var data = [
     },
     {
         "Date":"2020-07-29",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"初九",
         "TaskInfos":[
 
@@ -25,7 +28,8 @@ var data = [
     },
     {
         "Date":"2020-07-30",
-        "Holiday":"0",
+        "Holiday":"1",
+        "HolidayName":"中秋节",
         "LunarDay":"初十",
         "TaskInfos":[
 
@@ -33,7 +37,8 @@ var data = [
     },
     {
         "Date":"2020-07-31",
-        "Holiday":"0",
+        "Holiday":"1",
+        "HolidayName":"国庆节",
         "LunarDay":"十一",
         "TaskInfos":[
 
@@ -42,11 +47,12 @@ var data = [
     {
         "Date":"2020-08-01",
         "Holiday":"1",
+        "HolidayName":"国庆节",
         "LunarDay":"十二",
         "TaskInfos":[
             {
                 "ChargeName":"test",
-                "OverdueDay":14,
+                "OverdueDay":15,
                 "ProjectNo":"00030",
                 "TaskID":78,
                 "TaskName":"产品开发需求"
@@ -56,6 +62,7 @@ var data = [
     {
         "Date":"2020-08-02",
         "Holiday":"1",
+        "HolidayName":"国庆节",
         "LunarDay":"十三",
         "TaskInfos":[
 
@@ -63,7 +70,8 @@ var data = [
     },
     {
         "Date":"2020-08-03",
-        "Holiday":"0",
+        "Holiday":"1",
+        "HolidayName":"国庆节",
         "LunarDay":"十四",
         "TaskInfos":[
 
@@ -71,7 +79,8 @@ var data = [
     },
     {
         "Date":"2020-08-04",
-        "Holiday":"0",
+        "Holiday":"1",
+        "HolidayName":"国庆节",
         "LunarDay":"十五",
         "TaskInfos":[
 
@@ -79,7 +88,8 @@ var data = [
     },
     {
         "Date":"2020-08-05",
-        "Holiday":"0",
+        "Holiday":"1",
+        "HolidayName":"国庆节",
         "LunarDay":"十六",
         "TaskInfos":[
 
@@ -87,7 +97,8 @@ var data = [
     },
     {
         "Date":"2020-08-06",
-        "Holiday":"0",
+        "Holiday":"1",
+        "HolidayName":"国庆节",
         "LunarDay":"十七",
         "TaskInfos":[
 
@@ -95,7 +106,8 @@ var data = [
     },
     {
         "Date":"2020-08-07",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"十八",
         "TaskInfos":[
 
@@ -103,7 +115,8 @@ var data = [
     },
     {
         "Date":"2020-08-08",
-        "Holiday":"1",
+        "Holiday":"2",
+        "HolidayName":"国庆节后调班",
         "LunarDay":"十九",
         "TaskInfos":[
 
@@ -111,7 +124,8 @@ var data = [
     },
     {
         "Date":"2020-08-09",
-        "Holiday":"1",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"二十",
         "TaskInfos":[
 
@@ -119,7 +133,8 @@ var data = [
     },
     {
         "Date":"2020-08-10",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"廿一",
         "TaskInfos":[
             {
@@ -133,12 +148,13 @@ var data = [
     },
     {
         "Date":"2020-08-11",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"廿二",
         "TaskInfos":[
             {
                 "ChargeName":"test",
-                "OverdueDay":0,
+                "OverdueDay":1,
                 "ProjectNo":"00030",
                 "TaskID":302,
                 "TaskName":"test1"
@@ -147,7 +163,8 @@ var data = [
     },
     {
         "Date":"2020-08-12",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"廿三",
         "TaskInfos":[
 
@@ -155,12 +172,13 @@ var data = [
     },
     {
         "Date":"2020-08-13",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"廿四",
         "TaskInfos":[
             {
                 "ChargeName":"test",
-                "OverdueDay":9,
+                "OverdueDay":10,
                 "ProjectNo":"00030",
                 "TaskID":304,
                 "TaskName":"Calendar Test Second"
@@ -169,7 +187,8 @@ var data = [
     },
     {
         "Date":"2020-08-14",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"廿五",
         "TaskInfos":[
 
@@ -177,7 +196,8 @@ var data = [
     },
     {
         "Date":"2020-08-15",
-        "Holiday":"1",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"廿六",
         "TaskInfos":[
 
@@ -185,7 +205,8 @@ var data = [
     },
     {
         "Date":"2020-08-16",
-        "Holiday":"1",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"廿七",
         "TaskInfos":[
 
@@ -193,7 +214,8 @@ var data = [
     },
     {
         "Date":"2020-08-17",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"廿八",
         "TaskInfos":[
 
@@ -201,19 +223,20 @@ var data = [
     },
     {
         "Date":"2020-08-18",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"廿九",
         "TaskInfos":[
             {
                 "ChargeName":"test",
-                "OverdueDay":1,
+                "OverdueDay":2,
                 "ProjectNo":"00030",
                 "TaskID":299,
                 "TaskName":"test"
             },
             {
                 "ChargeName":"test",
-                "OverdueDay":1,
+                "OverdueDay":-1,
                 "ProjectNo":"00030",
                 "TaskID":300,
                 "TaskName":"test2"
@@ -222,7 +245,8 @@ var data = [
     },
     {
         "Date":"2020-08-19",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"八月",
         "TaskInfos":[
 
@@ -230,7 +254,8 @@ var data = [
     },
     {
         "Date":"2020-08-20",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"初二",
         "TaskInfos":[
             {
@@ -244,26 +269,27 @@ var data = [
     },
     {
         "Date":"2020-08-21",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"初三",
         "TaskInfos":[
             {
                 "ChargeName":"test",
-                "OverdueDay":5,
+                "OverdueDay":6,
                 "ProjectNo":"00030",
                 "TaskID":303,
                 "TaskName":"Calendar Test First"
             },
             {
                 "ChargeName":"test",
-                "OverdueDay":5,
+                "OverdueDay":6,
                 "ProjectNo":"00030",
                 "TaskID":305,
                 "TaskName":"Calendar Test Third"
             },
             {
                 "ChargeName":"test",
-                "OverdueDay":-1,
+                "OverdueDay":0,
                 "ProjectNo":"00030",
                 "TaskID":306,
                 "TaskName":"Calendar Test Fourth"
@@ -284,7 +310,7 @@ var data = [
             },
             {
                 "ChargeName":"test",
-                "OverdueDay":-1,
+                "OverdueDay":0,
                 "ProjectNo":"00008",
                 "TaskID":1,
                 "TaskName":"立项报告指定"
@@ -293,7 +319,8 @@ var data = [
     },
     {
         "Date":"2020-08-22",
-        "Holiday":"1",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"初四",
         "TaskInfos":[
             {
@@ -307,7 +334,8 @@ var data = [
     },
     {
         "Date":"2020-08-23",
-        "Holiday":"1",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"初五",
         "TaskInfos":[
             {
@@ -319,7 +347,7 @@ var data = [
             },
             {
                 "ChargeName":"test",
-                "OverdueDay":1,
+                "OverdueDay":2,
                 "ProjectNo":"00030",
                 "TaskID":79,
                 "TaskName":"产品性能目标"
@@ -328,7 +356,8 @@ var data = [
     },
     {
         "Date":"2020-08-24",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"初六",
         "TaskInfos":[
             {
@@ -340,7 +369,7 @@ var data = [
             },
             {
                 "ChargeName":"test",
-                "OverdueDay":2,
+                "OverdueDay":3,
                 "ProjectNo":"00032",
                 "TaskID":214,
                 "TaskName":"产品开发需求"
@@ -349,7 +378,8 @@ var data = [
     },
     {
         "Date":"2020-08-25",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"初七",
         "TaskInfos":[
             {
@@ -363,12 +393,13 @@ var data = [
     },
     {
         "Date":"2020-08-26",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"初八",
         "TaskInfos":[
             {
                 "ChargeName":"test",
-                "OverdueDay":0,
+                "OverdueDay":1,
                 "ProjectNo":"00032",
                 "TaskID":216,
                 "TaskName":"产品成本目标"
@@ -384,7 +415,8 @@ var data = [
     },
     {
         "Date":"2020-08-27",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"初九",
         "TaskInfos":[
 
@@ -392,7 +424,8 @@ var data = [
     },
     {
         "Date":"2020-08-28",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"初十",
         "TaskInfos":[
 
@@ -400,7 +433,8 @@ var data = [
     },
     {
         "Date":"2020-08-29",
-        "Holiday":"1",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"十一",
         "TaskInfos":[
 
@@ -408,7 +442,8 @@ var data = [
     },
     {
         "Date":"2020-08-30",
-        "Holiday":"1",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"十二",
         "TaskInfos":[
 
@@ -416,7 +451,8 @@ var data = [
     },
     {
         "Date":"2020-08-31",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"十三",
         "TaskInfos":[
 
@@ -424,7 +460,8 @@ var data = [
     },
     {
         "Date":"2020-09-01",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"十四",
         "TaskInfos":[
 
@@ -432,7 +469,8 @@ var data = [
     },
     {
         "Date":"2020-09-02",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"十五",
         "TaskInfos":[
             {
@@ -446,7 +484,8 @@ var data = [
     },
     {
         "Date":"2020-09-03",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"十六",
         "TaskInfos":[
 
@@ -454,7 +493,8 @@ var data = [
     },
     {
         "Date":"2020-09-04",
-        "Holiday":"0",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"十七",
         "TaskInfos":[
             {
@@ -468,7 +508,8 @@ var data = [
     },
     {
         "Date":"2020-09-05",
-        "Holiday":"1",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"十八",
         "TaskInfos":[
             {
@@ -538,7 +579,8 @@ var data = [
     },
     {
         "Date":"2020-09-06",
-        "Holiday":"1",
+        "Holiday":"",
+        "HolidayName":"",
         "LunarDay":"十九",
         "TaskInfos":[
 

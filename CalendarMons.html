@@ -290,24 +290,32 @@
         }
         var theDayString = this.getDateString(theDay);
         var theFormatDate = moment(theDay).format('YYYY-MM-DD');
-        dateTds[i].innerHTML = theDay.getDate() + "<span style='font-size: 14px; font-weight: 400 !important;'>" + "&nbsp&nbsp&nbsp&nbsp" + this.getLunarCalendarTime(theFormatDate) + "</span>";
+        if(data[i].Holiday == "1") {
+            dateTds[i].innerHTML = theDay.getDate() + "<span style='font-size: 14px; font-weight: 400 !important;'>" + "&nbsp&nbsp&nbsp&nbsp" + data[i].HolidayName + "</span>";
+        } else {
+            dateTds[i].innerHTML = theDay.getDate() + "<span style='font-size: 14px; font-weight: 400 !important;'>" + "&nbsp&nbsp&nbsp&nbsp" + this.getLunarCalendarTime(theFormatDate) + "</span>";
+        }
         dateTds[i].setAttribute('data', theDayString);
         if (theDayString.substr(0, 6) == this.getDateString(firstDay).substr(0, 6)) { // 当前月
-            if(data[i].Holiday == "1") {    // 当前天
-                dateTds[i].className = "holiday-day";
-                dateTds[i].innerHTML += "<span style='font-size: 14px; font-weight: 400 !important;'>（休）</span>" //节假日
-            } else {
-                dateTds[i].className = "current-month";
-                dateTds[i].innerHTML += "<span style='font-size: 14px; font-weight: 400 !important;'>（班）</span>"
-            }
-        } else {
-            dateTds[i].className = "other-month"; // 其他月
-            if(data[i].Holiday == "1") {    // 当前天
-                dateTds[i].innerHTML += "<span style='font-size: 14px; font-weight: 400 !important;'>（休）</span>" //节假日
-            } else {
-                dateTds[i].innerHTML += "<span style='font-size: 14px; font-weight: 400 !important;'>（班）</span>"
-            }
-        }
+          if(data[i].Holiday == "1") {  //判断是否是节假日
+              dateTds[i].className = "holiday-day";
+              dateTds[i].innerHTML += "<span style='font-size: 14px; font-weight: 400 !important;'>（休）</span>"
+          } else if(data[i].Holiday == "2") {
+              dateTds[i].className = "holiday-day";
+              dateTds[i].innerHTML += "<span style='font-size: 14px; font-weight: 400 !important;'>（班）</span>"
+          } else {
+
+          }
+      } else {
+          dateTds[i].className = "other-month"; // 其他月
+          if(data[i].Holiday == "1") {  //判断是否是节假日
+              dateTds[i].innerHTML += "<span style='font-size: 14px; font-weight: 400 !important;'>（休）</span>"
+          } else if(data[i].Holiday == "2") {
+              dateTds[i].innerHTML += "<span style='font-size: 14px; font-weight: 400 !important;'>（班）</span>"
+          } else {
+
+          }
+      }
     }
 
     //填充表格中的任务数据
