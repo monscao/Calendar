@@ -1,6 +1,5 @@
 //初始化页面
 (function() {
-    console.log(data)
     this.nowDate = new Date();
     this.nowYear = this.nowDate.getFullYear();
     this.nowMonth = this.nowDate.getMonth() + 1;
@@ -163,7 +162,6 @@ function showSelect() {
 //切换月份
 // function switchMonth(e) {
 //     var date = this.nowDate;
-//     console.log(e)
 //     var nextMonth = $(e.currentTarget).attr("month");
 //     $("#dateSelector tr td").removeClass("selected-month");
 //     $(e.currentTarget).addClass("selected-month");
